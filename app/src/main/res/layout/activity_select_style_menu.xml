@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cs410g1.yoga.select_style_menu"
+    android:background="@drawable/yogbg">
+
+    <TextView android:text="@string/SelectStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:layout_below="@id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AnusaraStyle"
+                android:id="@+id/AnusaraStyle"
+                android:textSize="25sp"
+                android:layout_marginTop="31dp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AshtangaStyle"
+                android:id="@+id/AshtangaStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/BikramStyle"
+                android:id="@+id/BikramStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/HathaStyle"
+                android:id="@+id/HathaStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/HotYogaStyle"
+                android:id="@+id/HotYogaStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/IyengarStyle"
+                android:id="@+id/IyengarStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/RestorativeYogaStyle"
+                android:id="@+id/RestorativeYogaStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/VinyasaStyle"
+                android:id="@+id/VinyasaStyle"
+                android:textSize="25sp"
+                android:onClick="yogaButtonClicked"
+                />
+            </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

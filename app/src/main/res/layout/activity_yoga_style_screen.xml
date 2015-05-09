@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/yoga_style_screen"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.cs410g1.yoga.YogaStyleScreen">
+
+    <TextView android:text="@string/Placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/yoga_style_title_text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:text="@string/Calendar_Add"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="31dp"
+                android:onClick="onAddEventClicked"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

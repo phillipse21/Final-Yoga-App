@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yoga</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="CustomWorkouts">Custom Workouts</string>
+    <string name="TOS_title">Terms of Service</string>
+    <string name="TOS_message">These are the terms of service. Do you accept them?</string>
+    <string name="SelectStyle"> Select a style</string>
+    <string name="AnusaraStyle"> Anusara</string>
+    <string name="AshtangaStyle"> Ashtanga</string>
+    <string name="BikramStyle"> Bikram </string>
+    <string name="HathaStyle"> Hatha </string>
+    <string name="HotYogaStyle"> Hot Yoga </string>
+    <string name="IyengarStyle"> Iyengar </string>
+    <string name="RestorativeYogaStyle"> Restorative Yoga </string>
+    <string name="VinyasaStyle"> Vinyasa </string>
+    <string name="title_activity_yoga_style_screen">YogaStyleScreen</string>
+    <string name="title_activity_activity_yoga_pose">ActivityYogaPose</string>
+    <string name="Placeholder">PLACEHOLDER TEXT</string>
+    <string name="Calendar_Add">Add to Calendar</string>
+    <string name="TestText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet nibh mi, gravida convallis quam dictum a. In pharetra lorem a suscipit placerat. Curabitur fermentum gravida purus, sed suscipit est blandit elementum. In hac habitasse platea dictumst. Suspendisse ante erat, auctor ut sodales eu, fringilla sed urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec placerat velit mi, sit amet ultricies sem suscipit eu. Mauris sodales enim at tortor varius tristique rhoncus eget ligula. Pellentesque quis fermentum erat. Maecenas condimentum lacus ante, vitae tempus sapien venenatis nec. Quisque sed malesuada diam, rutrum fringilla augue. Etiam vestibulum varius congue. Ut finibus ultricies diam, in molestie metus aliquet eu. Sed tempus libero vel erat cursus semper. Mauris semper felis justo, a mattis enim ornare ac.
+
+Integer faucibus fringilla risus ut dictum. Nullam pulvinar feugiat magna, in pellentesque nisi. Morbi aliquet dapibus ligula, tristique mollis arcu condimentum sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet ex rutrum, facilisis orci a, lacinia ligula. Morbi vel metus elit. Donec vehicula risus eget neque viverra, a fringilla velit pulvinar. Fusce accumsan molestie velit non tincidunt. Ut eleifend aliquam enim id finibus. Fusce a neque pharetra, faucibus magna non, dapibus nibh.
+
+Etiam purus urna, vestibulum ut urna at, vulputate mattis nulla. Integer vitae purus neque. Nulla vitae turpis quis risus congue tempor a sed justo. Cras tristique nulla lorem, eu euismod dolor varius vel. Nunc cursus gravida leo, sit amet placerat elit. Nullam accumsan auctor justo, et ultricies est egestas non. Sed dictum turpis eu felis faucibus, et consequat neque ultrices. Duis tincidunt turpis eu dictum rutrum. Etiam suscipit risus quis odio gravida convallis. In tristique nulla quis lobortis egestas. Cras iaculis tincidunt dignissim. Vivamus posuere, leo eu maximus tincidunt, ante mi pharetra tortor, non scelerisque ligula lectus quis lorem.
+
+Fusce eros sapien, placerat in nisl a, hendrerit lobortis ante. Ut placerat maximus dolor, faucibus rhoncus justo faucibus et. Donec et metus diam. Sed consequat ante eget velit feugiat, et vulputate ex sollicitudin. Sed vel lacus consequat, vestibulum lorem eu, pretium purus. Cras vehicula ex mi, eu efficitur orci vestibulum non. Praesent ultrices semper nulla sit amet molestie. Praesent a pretium tortor. Donec sapien ligula, vehicula in condimentum non, ultricies eu nisl. Etiam gravida nisl tempus enim elementum, dapibus sodales velit mattis. Ut sodales hendrerit nisi, in mattis justo dignissim eu. Nullam congue, erat quis rhoncus viverra, orci tortor convallis felis, eget mollis dui arcu quis nisi. Proin commodo vehicula ipsum at lacinia. Mauris sit amet condimentum libero, ut molestie massa. Etiam quis egestas nibh, in malesuada arcu.
+
+Aenean maximus, mi at tristique faucibus, nibh est venenatis sapien, ut suscipit tellus ligula non nibh. Cras efficitur lorem sed odio blandit, ut aliquam libero eleifend. Proin at dui elementum, laoreet dolor non, dignissim odio. Aenean vitae sapien nec lorem euismod pellentesque. Aenean at erat at augue rutrum euismod vitae a urna. Nullam ut tempor eros. Fusce eu nisl at diam interdum vulputate vitae non erat. Quisque cursus eu eros fermentum auctor. Duis dictum pellentesque semper. Praesent lacinia libero facilisis, bibendum mauris ac, dignissim ante. In elit sem, mollis id urna porttitor, pretium feugiat magna.</string>
+    <string name="title_activity_iyengar_position_list">Iyengar_position_list</string>
+    <string name="title_activity_hot__yoga_pose_list">Hot_Yoga_pose_list</string>
+    <string name="title_activity_hatha_pose_list">Hatha_pose_list</string>
+    <string name="title_activity_vrksasana">Vrksasana</string>
+
+</resources>
